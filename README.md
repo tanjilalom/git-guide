@@ -64,12 +64,13 @@ git branch -d <branch>        # Delete a branch
 ## 🌐 Remote Repositories
 
 ```bash
-git remote -v                 # List remotes
-git remote add origin <url>   # Add remote repo
-git push -u origin main       # Push local to remote
-git push                      # Push updates
-git pull                      # Pull latest changes
-git fetch                     # Fetch without merge
+git remote -v                       # List remotes
+git remote add origin <url>         # Add remote repo
+git push -u origin main             # Push local to remote
+git push                            # Push updates
+git pull                            # Pull latest changes
+git fetch                           # Fetch without merge
+git push --set-upstream main main   #links your local branch to the remote for future git push/git pull
 ```
 
 ---
